@@ -28,7 +28,7 @@ namespace SeleniumCsharp
 
 
         [Test]
-        public void Test1()
+        public void Authenticate()
         {
             webDriver.Navigate().GoToUrl(baseURL);
 
